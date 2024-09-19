@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://t3.ftcdn.net/jpg/02/92/88/72/360_F_292887204_2wH041phSQo70eqaE9GRqFvn5MmQ4B8w.jpg" alt="" id="img" height="50%" width="500px" >
+    <div>
+        <button onclick="image('https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png')">HTML</button>
+        <button onclick="image('https://cdn-icons-png.flaticon.com/512/919/919826.png')">CSS</button>
+        <button onclick="image('https://media.licdn.com/dms/image/D4E12AQFfe1nZbaWdMw/article-cover_image-shrink_720_1280/0/1698604163003?e=2147483647&v=beta&t=rtD52hfy37nFVmc4_MXfnflV6C-ke773W70SYJLoWRc')">JAVA SCRIPT</button>
+        <button onclick="image('https://ms314006.github.io/static/b7a8f321b0bbc07ca9b9d22a7a505ed5/97b31/React.jpg')">React</button>
+
+    </div>
+    
+</body>
+<script>
+    function image(b){
+        var a=document.getElementById("img");
+        a.style.height="50vh";
+        a.style.width="50%";
+        a.src=b
+    }
+</script>
+</html>
